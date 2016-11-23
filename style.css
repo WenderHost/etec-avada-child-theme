@@ -378,7 +378,7 @@ text-decoration:none !important;
 /* GravityForms
  ----------------------------------*/
  #wrapper .gform_wrapper div.validation_error{
- 	margin-top: 100px;
+ 	margin-top: 200px;
  	background-color: #ecc;
  	padding: 64px 0;
  }
