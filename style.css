@@ -1,0 +1,391 @@
+/*
+
+
+
+Theme Name: ETEC Custom
+
+
+
+Description: Custom theme based on Avada Theme
+
+
+
+Author: Boondock Marketing
+
+
+
+Template: Avada
+
+
+
+*/
+
+
+@import url("../Avada/style.css");
+
+
+.wpmem-ul-user h2, .wpmem-ul-user-odd h2{
+margin-top: 20px !important;
+margin-bottom: 0px !important;
+}
+
+#wpmem_search_form form{
+	margin-top:-60px;
+}
+
+code {
+    padding: 2px 4px;
+    color: rgb(0, 0, 0) !important;
+    background-color: transparent !important;
+    border: none !important;
+}
+
+#sidebar .widget li a {
+	color:#fff !important;
+}
+
+
+
+body {
+
+	text-align: inherit;
+
+}
+
+
+
+.frontpage_crop {
+
+	width: 200px;
+
+	height: 150px;
+
+	overflow: hidden;
+
+}
+
+.new_frontpage_crop {
+
+	width: 300px;
+	height: 215px;
+	overflow: hidden;
+
+}
+
+
+.frontbutton{
+
+line-height: 14px;
+
+padding-top: 10px;
+
+margin: 10px;
+
+color: #fff !important;
+
+}
+
+
+
+.button.small{
+
+color:#fff !important;
+
+line-height:14px !important;
+
+padding-top:10px !important;
+
+margin:20px 20px 0px 0px !important;
+
+}
+
+
+
+.frontpage_crop img {
+
+	width: auto;
+
+	margin: 0 auto;
+
+}
+
+
+
+.tribe-events-adv-list-widget h4 {
+
+	background: rgb(27,163,147) !important;
+	padding: 10px;
+
+	color: #fff !important;
+
+	font-weight: 800;
+
+}
+
+
+
+#tribe-events-adv-list-widget-3{
+
+margin-top:-8px;
+
+}
+
+
+.list-date{
+
+display:none;
+}
+
+.list-info h2 a, .list-info .entry-title a{
+margin: 0 0 0 -20px !important;
+}
+
+.list-info h2{
+margin:10px 0px !important;
+}
+
+.heading h3{
+
+font-size:18px !important;
+
+font-weight:800 !important;
+
+margin-left:-20px !important;
+
+}
+
+@media screen and (max-width: 320px){
+	.heading h3{
+		margin-left:-10px !important;
+	}
+}
+
+
+.entry-title a {
+
+	color: #fff !important;
+
+	font-weight: 800;
+font-size: 13px;
+
+}
+
+
+
+.entry-title a:hover {
+
+	color: #fff !important;
+
+	font-weight: 800;
+font-size: 13px;
+
+}
+
+
+
+.vc-carousel-control.vc-right {
+
+	left: auto;
+
+	right: -40px !important;
+
+}
+
+
+
+.vc-carousel-control.vc-left {
+
+	right: auto;
+
+	left: -40px;
+
+}
+
+
+
+.vc-inner .post-thumb img {
+
+	margin: 0 auto;
+
+	display: block;
+
+}
+
+
+
+.gce-list {
+
+	list-style-type: none;
+
+	margin-left: -35px;
+
+}
+
+
+
+.gce-widget-list .gce-list .gce-list-title {
+
+	font-weight: normal !important;
+
+	font-size: 16px;
+
+	color: #333;
+
+	padding-top: 10px;
+
+}
+
+
+
+.gce-widget-list .gce-list .gce-list-event {
+
+	background-color: #4d9bda !important;
+
+	color: #fff;
+
+	font-weight: bold;
+
+	padding: 5px;
+
+}
+
+
+
+.button {
+
+	color: #fff !important;
+
+	background: #4d9bda !important;
+
+	text-decoration: none;
+
+	text-transform: capitalize;
+
+	text-shadow: none !important;
+
+}
+
+
+
+.button:hover {
+
+	color: #fff !important;
+
+	background: #3cb0fd !important;
+
+	background-image: -webkit-linear-gradient(top,#3cb0fd,#3498db) !important;
+
+	background-image: -moz-linear-gradient(top,#3cb0fd,#3498db) !important;
+
+	background-image: -ms-linear-gradient(top,#3cb0fd,#3498db) !important;
+
+	background-image: -o-linear-gradient(top,#3cb0fd,#3498db) !important;
+
+	background-image: linear-gradient(to bottom,#3cb0fd,#3498db) !important;
+
+	text-decoration: none !important;
+
+}
+
+
+
+.wysija-submit {
+
+	color: #fff !important;
+
+	background: #4d9bda !important;
+
+	text-decoration: none;
+
+	text-transform: capitalize;
+
+	text-shadow: none !important;
+
+	border: none;
+
+	margin-left: 90px;
+
+	margin-top: -20px;
+
+	padding: 5px;
+
+}
+
+
+
+a {
+
+	text-shadow: none !important;
+
+}
+
+
+
+.slider-controls {
+
+	position: relative;
+
+	width: 250px;
+
+	top: 17.5px;
+
+	margin-left: 30px;
+
+}
+
+.type-tribe_events h4 a{
+
+color:#fff !important;
+
+}
+
+.type-tribe_events h4 a:hover{
+
+color:#fff !important;
+
+text-decoration:none !important;
+
+}
+
+
+
+#logo-slider {
+
+	margin-left: 40px !important;
+
+}
+
+
+
+.wpb_row, .wpb_content_element, ul.wpb_thumbnails-fluid > li, .last_toggle_el_margin, .wpb_button {
+
+	margin-bottom: 15px;
+
+}
+
+
+
+#logo-slider-wraper {
+
+	margin-top: 50px;
+
+}
+
+
+
+.home-col {
+
+	height: 150px;
+
+	width: auto;
+
+}
+
+.tribe-mini-calendar-event .list-date {
+    visibility: hidden;
+}
+
+.tribe-events-title a {font-size: 14px;
+}
+
+.tm_lcptu_post_title a {padding-bottom: 6px; font-size 14px;}
