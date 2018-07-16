@@ -1,0 +1,72 @@
+/* Theme Modifications */
+
+#topbar{
+  border-bottom: 1px solid darken(#e5e5e5,15%);
+
+  .avada-row{
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+
+    &::after{
+      display: none;
+    }
+
+    @media (max-width : 600px) {
+      padding-top: 8px;
+      padding-bottom: 5px;
+    }
+  }
+
+  ul.social-networks{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    li{
+      float: none;
+      height: auto;
+
+      @media (max-width : 600px) {
+        margin-left: 5px;
+      }
+
+      a{
+        width: 24px;
+        height: 24px;
+        background-position: center !important;
+      }
+    }
+  }
+}
+
+#header{
+  .avada-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    @media( min-width: 801px ){
+      &::after{
+        display: none;
+      }
+    }
+
+    @media( max-width: 801px ){
+      display: block;
+    }
+  }
+
+  .logo{
+    margin: 10px 0;
+  }
+
+  nav#nav{
+    float: none;
+  }
+
+  #navigation{
+  }
+}

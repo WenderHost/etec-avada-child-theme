@@ -1,0 +1,18 @@
+{
+  "name": "avada-child-theme",
+  "version": "1.0.0",
+  "description": "Avada Child Theme for ETEConline.org",
+  "main": "functions.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Michael Wender",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.24.5",
+    "browsersync": "0.0.1-security",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4"
+  }
+}

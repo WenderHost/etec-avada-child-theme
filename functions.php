@@ -1,5 +1,6 @@
 <?php
 
+require_once( get_stylesheet_directory() . '/lib/fns/enqueues.php');
 
 add_action( 'init', 'create_post_type' );
 
@@ -70,7 +71,7 @@ function my_taxonomies_news() {
 		'all_items'         => __( 'All News Categories' ),
 		'parent_item'       => __( 'Parent News Category' ),
 		'parent_item_colon' => __( 'Parent News Category:' ),
-		'edit_item'         => __( 'Edit News Category' ), 
+		'edit_item'         => __( 'Edit News Category' ),
 		'update_item'       => __( 'Update News Category' ),
 		'add_new_item'      => __( 'Add New News Category' ),
 		'new_item_name'     => __( 'New News Category' ),
