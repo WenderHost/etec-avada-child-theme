@@ -740,9 +740,11 @@ endif; ?>
 		<?php if(!is_page_template('blank.php')): ?>
 		<div id="topbar">
 			<div class="avada-row">
-				<div>1201 Oak Ridge Turnpike, Suite 100, Oak Ridge, TN 37930 &bull; (865) 483.4577</div>
+				<div>&nbsp;<!--1201 Oak Ridge Turnpike, Suite 100, Oak Ridge, TN 37930 &bull; (865) 483.4577--></div>
 				<div>
 					<ul class="social-networks">
+						<li class="link"><a href="/member-home/membership-information/">Join ETEC</a></li>
+						<li class="link"><a href="/login/">Member Login</a></li>
 						<li class="linkedin"><a href="https://www.linkedin.com/company/east-tennessee-economic-council-etec-/" target="_blank">LinkedIn</a></li>
 						<li class="facebook"><a href="https://www.facebook.com/ETECTN/" target="_blank">Facebook</a></li>
 					</ul>
