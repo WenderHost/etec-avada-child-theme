@@ -1980,7 +1980,8 @@ ui-datepicker-header select {border: 1px solid #D2D2D2;}
 .side-nav li a{
 	border-bottom:1px solid #ededed !important;
 	display:block;
-	background:url(../images/side_nav_bg.png) no-repeat top right;
+	/*background:url(../images/side_nav_bg.png) no-repeat top right;*/
+	background-color: darken(#fff,2%);
 	height:auto;
 	font-weight:normal !important;
 	font:14px/39px 'MuseoSlab500Regular', arial, helvetica, sans-serif !important;
@@ -1988,7 +1989,7 @@ ui-datepicker-header select {border: 1px solid #D2D2D2;}
 }
 .side-nav li a {
 	line-height: 1.69em!important;
-	padding: 8px 0!important;
+	padding: 8px 12px 8px 20px !important;
 	background-repeat: repeat-y!important;
 }
 .side-nav li a:hover{
