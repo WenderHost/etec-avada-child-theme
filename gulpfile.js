@@ -7,7 +7,7 @@ var sourcemaps = require('gulp-sourcemaps');
 var browserSync = require('browser-sync').create();
 gulp.task('browser-sync', function() {
     browserSync.init({
-        proxy: "eteconline.test/"
+        proxy: "etec.local"
     });
 });
 
