@@ -1,5 +1,8 @@
 /* Theme Modifications */
-
+body, #sidebar .slide-excerpt h2, .footer-area .slide-excerpt h2, #slidingbar-area .slide-excerpt h2{
+  font-size: 1rem !important;
+  line-height: 1.5rem !important;
+}
 #topbar{
   /*border-bottom: 1px solid darken(#e5e5e5,15%);*/
   background-color: #000;
@@ -102,4 +105,19 @@
 
   #navigation{
   }
+}
+
+/* Taken from Avada Theme Options > Advanced CSS Customizations */
+#sidebar .widget li h4 a{ color:#fff !important;}
+#sidebar .widget li h4 a:hover{ color:#fff !important;}
+#logo-slider-wrapper{
+    margin-left: -40px;
+}
+
+.post-content h4 {
+    line-height: 25px !important;
+}
+
+.footer-area h3 {
+    font-size: 18px !important;
 }
