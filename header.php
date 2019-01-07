@@ -725,14 +725,11 @@
 	<![endif]-->
 </head>
 <?php
-	$body_class = '';
-	$wrapper_class = '';
-	if(is_page_template('blank.php')):
-	$body_class = 'body_blank';
+$wrapper_class = '';
+if( is_page_template( 'blank.php' ) )
 	$wrapper_class = ' class="wrapper_blank"';
-endif; ?>
-
-<body <?php body_class(array($avada_color_scheme,$body_class)); ?>>
+?>
+<body <?php body_class(); ?>>
 	<div id="wrapper" <?php echo $wrapper_class; ?>>
 	<?php if($data['slidingbar_widgets'] && !is_page_template('blank.php')): ?>
 	<?php get_template_part('slidingbar'); ?>

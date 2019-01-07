@@ -1,8 +1,8 @@
 <?php
 
+require_once( get_stylesheet_directory() . '/lib/fns/body-class.php');
 require_once( get_stylesheet_directory() . '/lib/fns/enqueues.php');
-
-add_action( 'init', 'create_post_type' );
+require_once( get_stylesheet_directory() . '/lib/fns/js_composer.php');
 
 function create_post_type() {
 	register_post_type( 'news',
@@ -17,7 +17,7 @@ function create_post_type() {
 			'can_export' => true,
 		)
 	);
-
+	/*
 	register_post_type( 'speakers',
 		array(
 			'labels' => array(
@@ -40,8 +40,9 @@ function create_post_type() {
 		'has_archive' => true,
 		)
 	);
+	*/
 }
-
+add_action( 'init', 'create_post_type' );
 
 register_sidebar(array(
   'name' => __( 'News Sidebar' ),
@@ -52,15 +53,14 @@ register_sidebar(array(
 ));
 
 function replace_howdy( $wp_admin_bar ) {
- $my_account=$wp_admin_bar->get_node('my-account');
- $newtitle = str_replace( 'Howdy,', 'Welcome,', $my_account->title );
- $wp_admin_bar->add_node( array(
- 'id' => 'my-account',
- 'title' => $newtitle,
- ) );
- }
-
- add_filter( 'admin_bar_menu', 'replace_howdy',25 );
+	$my_account=$wp_admin_bar->get_node('my-account');
+	$newtitle = str_replace( 'Howdy,', 'Welcome,', $my_account->title );
+	$wp_admin_bar->add_node( array(
+	'id' => 'my-account',
+	'title' => $newtitle,
+	) );
+}
+add_filter( 'admin_bar_menu', 'replace_howdy',25 );
 
 // create taxonomy for the post type "news"
 function my_taxonomies_news() {
