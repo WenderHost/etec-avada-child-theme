@@ -1,7 +1,10 @@
 /* Theme Modifications */
 body, #sidebar .slide-excerpt h2, .footer-area .slide-excerpt h2, #slidingbar-area .slide-excerpt h2{
-  font-size: 1.2rem !important;
-  line-height: 1.75rem !important;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+div.logo img{
+  width: 212px;
 }
 #topbar{
   /*border-bottom: 1px solid darken(#e5e5e5,15%);*/
@@ -14,6 +17,7 @@ body, #sidebar .slide-excerpt h2, .footer-area .slide-excerpt h2, #slidingbar-ar
     align-items: center;
     justify-content: space-between;
     padding: 0 10px;
+    font-size: 13px;
 
     &::after{
       display: none;
@@ -61,13 +65,13 @@ body, #sidebar .slide-excerpt h2, .footer-area .slide-excerpt h2, #slidingbar-ar
           height: auto;
           display: inline;
           text-indent: 0;
-          padding-top: 3px;
           color: #fff;
           background-color: transparent;
           font-weight: bold;
           border: 1px solid darken(#fff,20%);
           border-radius: 2px;
-          padding: 0 12px;
+          padding: 4px 12px;
+          line-height: 1;
 
           &:hover{
             color: #4079C0;
@@ -117,7 +121,11 @@ body, #sidebar .slide-excerpt h2, .footer-area .slide-excerpt h2, #slidingbar-ar
 .post-content h4 {
     line-height: 25px !important;
 }
+.footer-area{
+  font-size: .85rem;
+  line-height: 1.25rem;
 
-.footer-area h3 {
+  h3{
     font-size: 18px !important;
+  }
 }
