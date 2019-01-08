@@ -1,5 +1,8 @@
 /* Theme Modifications */
-body, #sidebar .slide-excerpt h2, .footer-area .slide-excerpt h2, #slidingbar-area .slide-excerpt h2{
+body,
+#sidebar .slide-excerpt h2,
+.footer-area .slide-excerpt h2,
+#slidingbar-area .slide-excerpt h2{
   font-size: 1rem;
   line-height: 1.5rem;
 }
@@ -108,6 +111,41 @@ div.logo img{
   }
 
   #navigation{
+  }
+}
+
+/* Buttons */
+a.btn{
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 2px;
+
+  &.blue{
+    background-color: $blue;
+
+    &:hover{
+      color: $blue !important;
+    }
+  }
+
+  &.green{
+    background-color: $green;
+
+    &:hover{
+      color: $green !important;
+    }
+  }
+
+  &:hover{
+    background-color: rgba(255,255,255,0.75);
+    color: #000 !important;
+    text-decoration: none !important;
+  }
+
+  &.block{
+    display: block;
+    text-align: center;
   }
 }
 
