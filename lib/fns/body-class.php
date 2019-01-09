@@ -10,8 +10,9 @@ namespace AvadaChild\fns\bodyclass;
  * @return     array  Modified $classes for body_class()
  */
 function add_body_classes( $classes ){
-  // Add .light since we're not adding $avada_color_scheme inside header.php
-  $extra_classes = ['light'];
+  // Add .page-slug and .light since we're not adding $avada_color_scheme inside header.php
+  global $post;
+  $extra_classes = ['light', $post->post_name];
 
   if( is_page_template( 'blank.php' ) )
     $extra_classes[] = 'body_blank';

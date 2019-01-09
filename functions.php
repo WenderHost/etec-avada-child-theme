@@ -3,6 +3,8 @@
 require_once( get_stylesheet_directory() . '/lib/fns/body-class.php');
 require_once( get_stylesheet_directory() . '/lib/fns/enqueues.php');
 require_once( get_stylesheet_directory() . '/lib/fns/js_composer.php');
+require_once( get_stylesheet_directory() . '/lib/fns/member-directory.php');
+require_once( get_stylesheet_directory() . '/lib/fns/rest-api.php');
 
 function create_post_type() {
 	register_post_type( 'news',
