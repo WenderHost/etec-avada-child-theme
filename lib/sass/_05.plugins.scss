@@ -19,7 +19,13 @@
     display: none;
   }
 }
+.dataTables_length{
+  margin-bottom: 10px;
+}
+
 #member-list{
+  border-top: 1px solid #000;
+
   .col-md{
     margin-left: 20px;
   }
@@ -37,6 +43,11 @@
       cursor: pointer;
     }
   }
+
+  th{
+    background-color: #fff;
+  }
+
   tr.shown td.details-control{
     background-position: 0 -40px;
   }
