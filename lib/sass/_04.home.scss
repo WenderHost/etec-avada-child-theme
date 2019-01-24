@@ -1,11 +1,20 @@
 /* Home Page styles */
 body.front-page{
+  .sliders-container,
+  .page-title-container{
+    display: none;
+  }
+
   #main{
     padding: 0 !important;
     width: 100%;
 
     a:hover{
       text-decoration: underline;
+    }
+    h1,h2,h3,h4,h5,h6{
+      margin-top: 0;
+      line-height: 1.1;
     }
 
     h2{
@@ -28,6 +37,10 @@ body.front-page{
       width: 100%;
       max-width: 940px;
       margin: 0 auto;
+
+      @media screen and (max-width: 940px) {
+          max-width: 90%;
+      }
 
       i{
         font-size: 4rem;
@@ -65,12 +78,15 @@ body.front-page{
           text-overflow: ellipsis;
           white-space: nowrap;
           /**/
+          @media screen and (max-width: 940px) {
+            margin: 10px 0 0 0 !important;
+          }
         }
       }
     }
 
     .hero{
-      height: 50vh;
+      min-height: 50vh;
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -78,7 +94,6 @@ body.front-page{
       .content{
 
         .box{
-          width: 60%;
           text-align: left;
           background-color: rgba(0,0,0,.75);
           box-shadow: 3px 3px 3px rgba(0,0,0,0.75);
@@ -88,17 +103,53 @@ body.front-page{
           *:last-child{
             margin-bottom: 0
           }
-          h2{
+          h1,h2,h3,h4,h5,h6{
             color: #fff;
+            margin: 0 0 1rem;
+          }
+          h2{
             font-size: 2.5rem;
             line-height: 2.75rem;
+          }
+          h3{
+            font-size: 2rem;
+            line-height: 2.25rem;
+          }
+          h4{
+            font-size: 1.7rem;
+            line-height: 1.95rem;
+          }
+          h5{
+            font-size: 1.5rem;
+            line-height: 1.8rem;
+          }
+          h6{
+            font-size: 1.2rem;
+            line-height: 1.4rem;
           }
         }
       }
     }
 
+    .highlights.row.solid{
+      padding-top: 4rem;
+      padding-bottom: 3rem;
+
+      a{
+        color: $green;
+      }
+
+      .col-md{
+        padding-right: 32px;
+
+        &:last-child{
+          padding-right: 8px;
+        }
+      }
+    }
+
     .row.solid{
-      padding-top: 2rem;
+      padding-top: 4rem;
       padding-bottom: 2rem;
       color: #fff;
 
@@ -111,6 +162,14 @@ body.front-page{
       }
       &.green{
         background-color: $green;
+      }
+      &.gray{
+        background-color: #ccc;
+        color: $darkblue;
+      }
+      &.bluetogreen{
+        background: rgb(67,121,189);
+        background: linear-gradient(315deg, rgba(67,121,189,1) 0%, rgba(0,162,143,1) 100%);
       }
     }
   }

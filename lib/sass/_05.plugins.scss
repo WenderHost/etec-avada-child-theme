@@ -52,3 +52,15 @@
     background-position: 0 -40px;
   }
 }
+/* GS Logo Slider */
+.gs_logo_area{
+  width: 100%;
+  padding: 3rem 0 6rem;
+
+  .bx-wrapper[style]{
+    max-width: 100% !important
+  }
+  .gs_logo_single[style]{
+    margin-right: 20px !important;
+  }
+}
